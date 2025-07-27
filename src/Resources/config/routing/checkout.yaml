@@ -1,0 +1,9 @@
+vs_paysera_prepare:
+    path:     /paysera/prepare
+    controller: Vankosoft\PayseraBundle\Controller\PayseraController::prepareAction
+    options:
+        expose: true
+
+vs_paysera_done:
+    path:     /paysera/done
+    controller: Vankosoft\PayseraBundle\Controller\PayseraController::doneAction
