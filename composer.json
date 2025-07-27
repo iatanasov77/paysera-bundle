@@ -1,0 +1,31 @@
+{
+    "name": "vankosoft/paysera-bundle",
+    "type": "library",
+    "description": "The Payum extension. Rapid extensino development",
+    "keywords": [
+        "symfony",
+        "sylius",
+        "vankosoft",
+        "payum",
+        "vendo",
+        "payment"
+    ],
+    "homepage": "https://github.com/iatanasov77/paysera-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan I. Atanasov",
+            "email": "i.atanasov77@gmail.com"
+        }
+    ],
+    "require": {
+        "plumtreesystems/payum-paysera-gateway": "^0.3",
+        "vankosoft/payment-bundle": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vankosoft\\PayseraBundle\\": "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
